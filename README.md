@@ -8,7 +8,11 @@
 
 ## Features
 
-* Responsive accross device-sizes (dynamically changes box and space-width, as well as rows)
+* Responsive accross device-sizes
+  * Dynamically changes:
+    * Width of boxes
+    * Spacing between boxes (narrower for smaller screens)
+    * Number of rows (boxes fall to a new row before width shrinks)
 * All HTML/CSS (no JavaScript)
 * No third-party libraries
 
