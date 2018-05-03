@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Responsive Boxes Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="responsive-boxes.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div style="border:solid blue 1px;">TEST</div>
+    <!--Other div that removes margin from top and bottom of group of boxes.-->
+    <div id="boxContainer" class="boxContainer">
+        <div class="negativeMargin" style="border:solid red 1px;">
+            <!--A box with margin top and right.-->
+            <div class="column columnMargin" style="border:solid yellow 1px">
+
+                <!--cardbox defines the size of the box.-->
+                <div class="cardbox">
+
+                    <!--cardbox-top defines size of top section (image), and centers it.-->
+                    <div class="cardbox-top">
+                        <img src="http://cidronventures.com/wp-content/uploads/2017/09/google-logo-400x400.png" alt="Card image cap" style="height:150px; width:150px">
+                    </div>
+
+                    <!--center-tableMethod-parent uses table method to center both inline and block intems inside the div.
+                    cardbox-body sets fixed height on body section, as well as other formatting (color etc.).-->
+                    <div class="center-tableMethod-parent cardbox-body">
+
+                        <!--Child and parent divide is needed to make centering with table method work.-->
+                        <!--cardbox-body-container just ensures scrolling looks good with margins, if text overflows.-->
+                        <div class="center-tableMethod-child cardbox-body-container">
+
+                            <!--cardbox-title sets margins on body title.-->
+                            <h4 class="cardbox-title">Google</h4>
+
+                            <!--cardbox-body-text sets margins on body text.-->
+                            <div class="cardbox-body-text">
+                                This is a wider card with supporting text below as a natural lead-in to additional content.
+                            </div>
+
+                            <!--Modifies default link look.-->
+                            <a class="clean-link" target="_blank" href="images/magnus-gaarder.jpg">Read More &gt&gt</a>
+                        </div>
+                    </div>
+
+                    <!--Important: Uses the line-height method for vertical centering.
+                    Footer must be one line of text (not more), for centering to work.-->
+                    <div class="cardbox-footer">
+                        <span>Foo: Bar</span>
+                    </div>
+                </div>
+            </div><div class="column columnMargin" style="border:solid yellow 1px">
+                <div class="cardbox">
+                    <div class="cardbox-top">
+                        <img src="http://cidronventures.com/wp-content/uploads/2017/09/google-logo-400x400.png" alt="Card image cap" style="height:150px; width:150px">
+                    </div>
+                    <div class="center-tableMethod-parent cardbox-body">
+                        <div class="center-tableMethod-child cardbox-body-container">
+                            <h4 class="cardbox-title">Google</h4>
+                            <div class="cardbox-body-text">
+                                This is a wider card with supporting text below as a natural lead-in to additional content.
+                            </div>
+                            <a class="clean-link" target="_blank" href="images/magnus-gaarder.jpg">Read More &gt&gt</a>
+                        </div>
+                    </div>
+                    <div class="cardbox-footer">
+                        Foo: Bar
+                    </div>
+                </div>
+            </div><div class="column columnMargin" style="border:solid yellow 1px">
+                <div class="cardbox">
+                    <div class="cardbox-top">
+                        <img src="http://cidronventures.com/wp-content/uploads/2017/09/google-logo-400x400.png" alt="Card image cap" style="height:150px; width:150px">
+                    </div>
+                    <div class="center-tableMethod-parent cardbox-body">
+                        <div class="center-tableMethod-child cardbox-body-container">
+                            <h4 class="cardbox-title">Google</h4>
+                            <div class="cardbox-body-text">
+                                This is a wider card with supporting text below as a natural lead-in to additional content.
+                            </div>
+                            <a class="clean-link" target="_blank" href="images/magnus-gaarder.jpg">Read More &gt&gt</a>
+                        </div>
+                    </div>
+                    <div class="cardbox-footer">
+                        Foo: Bar
+                    </div>
+                </div></div>
+        </div>
+    </div>
+    <div style="border:solid blue 1px;">TEST</div>
+</body>
+
+</html>
