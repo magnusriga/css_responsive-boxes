@@ -1,5 +1,9 @@
 # Responsive Boxes in HTML and CSS
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=62s46CjiCwE
+" target="_blank"><img src="http://img.youtube.com/vi/62s46CjiCwE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ## Introduction
 
 * Bootstrap 4's card feature is not yet fully responsive
@@ -8,11 +12,10 @@
 
 ## Features
 
-* Responsive accross device-sizes
-  * Dynamically changes:
-    * Width of boxes
-    * Spacing between boxes (narrower for smaller screens)
-    * Number of rows (boxes fall to a new row before width shrinks)
+* Responsive across device-sizes. Dynamically changes:
+  * Width of boxes
+  * Spacing between boxes (narrower for smaller screens)
+  * Number of rows (boxes fall to a new row before width shrinks)
 * All HTML/CSS (no JavaScript)
 * No third-party libraries
 
