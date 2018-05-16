@@ -55,12 +55,12 @@ html, body {
 /* ================================================ */
 .boxContainer {
     /* overflow-x: hidden; */
-    padding-right: 1rem;
+    padding: 0 1rem;
 }
 @media screen and (min-width: 40em) {
     .boxContainer {
         /* overflow-x: hidden; */
-        padding-right: 3rem;
+        padding: 0 3rem;
     }
 }
 
@@ -83,7 +83,7 @@ That makes it easier to calculate.
 }
 @media screen and (min-width: 40em) {
     .negativeMargin {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         margin-top: -3rem;
         margin-right: -3rem;
     }
@@ -190,6 +190,7 @@ it will do so without touching the edges of the parent.*/
     color: #f8f9fa!important;
     text-decoration: none;
     background-color: transparent;
+    text-decoration-skip: objects;
     -webkit-text-decoration-skip: objects;
 }
 .clean-link:hover {
