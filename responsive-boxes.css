@@ -54,7 +54,14 @@ html, body {
 /* (border-box in all subclasses ensures hight/width includes margins/padding and border.) */
 /* ================================================ */
 .boxContainer {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    padding-right: 1rem;
+}
+@media screen and (min-width: 40em) {
+    .boxContainer {
+        /* overflow-x: hidden; */
+        padding-right: 3rem;
+    }
 }
 
 /* SPACING */
@@ -74,7 +81,7 @@ That makes it easier to calculate.
     margin-right: -1rem;
     text-align: center;
 }
-@media screen and (min-width:40em) {
+@media screen and (min-width: 40em) {
     .negativeMargin {
         overflow-x: hidden;
         margin-top: -3rem;
