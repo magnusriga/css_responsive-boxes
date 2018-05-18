@@ -93,7 +93,7 @@ The right/top margin are removed from right and bottom of the entire block
 by wrapping the columns in a div with negative margin (see below).
 vertical-align: top in case there are columns of text of different heights.*/
 .column {
-    display:inline-block;
+    display: inline-block;
     vertical-align: top;
 }
 .columnMargin {
